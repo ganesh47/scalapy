@@ -34,6 +34,8 @@ object ObjectReader extends ObjectTupleReaders {
   def toInt(value: Any): Int = {
     value match {
       case i: Int => i
+      case i: java.lang.Long => i.toInt
+      case i: Long => i.toInt
       case _: Double =>
         throw new IllegalArgumentException("Cannot up-convert a Double to an Int")
       case _: Float =>
