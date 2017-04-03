@@ -20,3 +20,9 @@ When you are running, you may need to provide a path to your libraries when laun
 ## Static Facades
 + NumPy: https://github.com/shadaj/scalapy-numpy
 + TensorFlow: https://github.com/shadaj/scalapy-tensorflow
+
+## Todo
+
+[ ] Remove static code gen in sbt file and integrate with scala-meta
+[ ] Add contribs to licen and then rename packages with all author attr.
+[ ] Modify docs for it to run.
